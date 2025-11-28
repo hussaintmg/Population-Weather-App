@@ -1,0 +1,16 @@
+# Streamlit app configuration
+
+[theme]
+primaryColor = "#0E1117"          # Main accent color (buttons, highlights)
+backgroundColor = "#F0F2F6"       # Main background
+secondaryBackgroundColor = "#E0E0E0"  # Sidebar background
+textColor = "#262730"             # Default text color
+font = "sans serif"               # Font style: "sans serif", "serif", "monospace"
+
+[server]
+headless = true                   # Run without browser
+port = 8501                       # Default Streamlit port
+enableCORS = false                # Disable CORS for cloud deployment
+
+[browser]
+gatherUsageStats = false          # Disable usage stats
