@@ -3,7 +3,7 @@
 [theme]
 primaryColor = "#0E1117"          # Main accent color (buttons, highlights)
 backgroundColor = "#000"       # Main background
-secondaryBackgroundColor = "#E0E0E0"  # Sidebar background
+secondaryBackgroundColor = "#2f302f"  # Sidebar background
 textColor = "#fff"             # Default text color
 font = "sans serif"               # Font style: "sans serif", "serif", "monospace"
 
