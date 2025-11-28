@@ -17,7 +17,7 @@ with st.sidebar:
 # Load Dataset
 @st.cache_data
 def load_data():
-    df = pd.read_csv("./data/pakistan_weather_data.csv")
+    df = pd.read_csv("./data/Pakistan_weather_data.csv")
     
     # Fix datetime column: convert YYYY-MM-DD:HH to proper datetime
     df['datetime'] = pd.to_datetime(df['datetime'].str.replace(":", " "), format='%Y-%m-%d %H', errors='coerce')
